@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir['spec/**/*.rb']
 
   s.add_dependency('multi_json', '>= 1.3.0')
-  s.add_dependency('builder', '>= 2.1.2')
+  s.add_dependency('builder', '>= 3.0.0')
   s.add_dependency('jwt', '>= 0.1.2')
   s.add_dependency('jruby-openssl') if RUBY_PLATFORM == 'java'
   # Workaround for RBX <= 2.2.1, should be fixed in next version
